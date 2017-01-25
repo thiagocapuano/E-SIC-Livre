@@ -21,9 +21,9 @@ include("../inc/topo.php");
 	<div id="ouvidoria">
 	<p><br><b>Ouvidoria<br>
 	<span>Faça sua Den&uacute;ncia, Elogio ou Reclama&ccedil;&atilde;o atrav&eacute;s dos seguintes contatos:</span></b><br>
-	<i>e-mail : ouvidoria@natal.rn.gov.br<br>
+	<i>e-mail : ouvidoria@dominio<br>
 	Telefone : 3232-6748 e 3232-6389<br>
-	Twitter: https://twitter.com/ogmnatal</i><br></p>
+	Twitter: https://twitter.com/</i><br></p>
 	</div>
 	</div>
 	

@@ -49,7 +49,7 @@ include("../inc/topo.php");
           <td height="52" bgcolor="#F4F8FB" class="texto"><p>1. Acesse o e-SIC (Sistema Eletr&ocirc;nico do Servi&ccedil;o de Informa&ccedil;&otilde;es ao
             Cidad&atilde;o): <br>
 			<br>
-            <a href="http://www.natal.rn.gov.br/leideacesso" target="_blank" class="linkBlack">www.natal.rn.gov.br/leideacesso</a></p>
+            <a href="#Leideacesso" target="_blank" class="linkBlack">Lei de Acesso</a></p>
             <br>
 			<p>2. Insira o seu login e senha para acessar o sistema.</p>
             <br>

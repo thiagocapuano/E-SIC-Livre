@@ -45,16 +45,16 @@ include("../inc/topo.php");
 	II - &agrave;s hip&oacute;teses  de sigilo previstas na legisla&ccedil;&atilde;o, como fiscal, banc&aacute;ria, comercial, profissional, industrial e segredo de justi&ccedil;a;<br>
 	III  &ndash; &agrave;s informa&ccedil;&otilde;es relacionadas  &agrave; pessoa  natural identificada ou identific&aacute;vel, relativa  &agrave; intimidade, vida privada, honra e imagem.</p>
 	<p>&nbsp;</p>
-	<p>Art. 4&ordm;. Fica criado  o Servi&ccedil;o de Informa&ccedil;&atilde;o ao Cidad&atilde;o - SIC,  coordenado pela Secretaria Municipal  de Planejamento, Fazenda  e Tecnologia  da Informa&ccedil;&atilde;o,  acess&iacute;vel  via  web,  no endere&ccedil;o http://natal.rn.gov.br/leideacesso  ou atrav&eacute;s do Protocolo Geral que ficar&aacute; instalado na Rua Dr. Ewerton Dantas Cortez, 1432,  Tirol, CEP 59020,  Natal/RN.
+	<p>Art. 4&ordm;. Fica criado  o Servi&ccedil;o de Informa&ccedil;&atilde;o ao Cidad&atilde;o - SIC,  coordenado pela Secretaria Municipal  de Planejamento, Fazenda  e Tecnologia  da Informa&ccedil;&atilde;o,  acess&iacute;vel  via  web,  no endere&ccedil;o http://dominio/leideacesso/  ou atrav&eacute;s do Protocolo Geral que ficar&aacute; instalado na Rua Dr. Ewerton Dantas Cortez, 1432,  Tirol, CEP 59020,  Natal/RN.
 	Par&aacute;grafo  &uacute;nico. Cabe ao Servi&ccedil;o de Informa&ccedil;&atilde;o ao Cidad&atilde;o - SIC:<br>
 	I - disponibilizar informa&ccedil;&otilde;es em conformidade com a Lei n&ordm; 12.527, de 28 de novembro de
 	2011, por meio eletr&ocirc;nico;<br>
 	II - disponibilizar atendimento  presencial ao p&uacute;blico;<br>
 	III - receber, autuar e processar, para respostas, os pedidos de acesso &agrave;s informa&ccedil;&otilde;es;<br>
-	IV - orientar o interessado, quanto ao seu pedido, o tr&acirc;mite, o prazo da resposta e sobre as informa&ccedil;&otilde;es dispon&iacute;veis no site eletr&ocirc;nico http://natal.rn.gov.br/leideacesso/;<br>
+	IV - orientar o interessado, quanto ao seu pedido, o tr&acirc;mite, o prazo da resposta e sobre as informa&ccedil;&otilde;es dispon&iacute;veis no site eletr&ocirc;nico http://dominio/leideacesso/;<br>
 	V - zelar pelo atendimento dos prazos assinalados para apresenta&ccedil;&atilde;o de respostas; VI - elaborar relat&oacute;rio mensal dos atendimentos.</p>
 	<p>&nbsp;</p>
-	<p>Art. 5&ordm;. Qualquer interessado, devidamente identificado, poder&aacute; ter acesso &agrave;s informa&ccedil;&otilde;es referentes aos &oacute;rg&atilde;os e &agrave;s entidades  municipais, preferencialmente,  no site http://natal.rn.gov.br/leideacesso/ e, na impossibilidade de utiliza&ccedil;&atilde;o desse  meio, apresentar  o pedido no Servi&ccedil;o de Informa&ccedil;&atilde;o ao Cidad&atilde;o - SIC, conforme  Anexo I.<br>
+	<p>Art. 5&ordm;. Qualquer interessado, devidamente identificado, poder&aacute; ter acesso &agrave;s informa&ccedil;&otilde;es referentes aos &oacute;rg&atilde;os e &agrave;s entidades  municipais, preferencialmente,  no site http://dominio/leideacesso/ e, na impossibilidade de utiliza&ccedil;&atilde;o desse  meio, apresentar  o pedido no Servi&ccedil;o de Informa&ccedil;&atilde;o ao Cidad&atilde;o - SIC, conforme  Anexo I.<br>
 	&sect; 1&ordm;. O pedido de acesso  &agrave; informa&ccedil;&atilde;o dever&aacute; conter:<br>
 	I - nome do requerente;<br>
 	II - n&uacute;mero de documento de identifica&ccedil;&atilde;o v&aacute;lido;<br>
@@ -91,7 +91,7 @@ include("../inc/topo.php");
 	&sect; 3&ordm;. Caso seja requerida justificadamente a concess&atilde;o da c&oacute;pia de documento, com 
 	autentica&ccedil;&atilde;o, poder&aacute; ser designado um servidor para certificar que confere com o original.</p>
 	<p>&nbsp;</p>
-	<p>Art. 8&ordm;. As informa&ccedil;&otilde;es de interesse p&uacute;blico ser&atilde;o disponibilizadas no s&iacute;tio eletr&ocirc;nico http://natal.rn.gov.br/leideacesso/, as quais ser&atilde;o atualizadas, rotineiramente, e dever&aacute; atender, 
+	<p>Art. 8&ordm;. As informa&ccedil;&otilde;es de interesse p&uacute;blico ser&atilde;o disponibilizadas no s&iacute;tio eletr&ocirc;nico http://dominio/leideacesso/, as quais ser&atilde;o atualizadas, rotineiramente, e dever&aacute; atender, 
 	entre outros, aos seguintes requisitos:<br>
 	<p>&nbsp;</p>
 	I - conter formul&aacute;rio para requerimento de acesso a informa&ccedil;&atilde;o;<br>
@@ -108,7 +108,7 @@ include("../inc/topo.php");
 	requerimento, a divulga&ccedil;&atilde;o em seus s&iacute;tios na Internet de informa&ccedil;&otilde;es de interesse coletivo ou 
 	geral por eles produzidas.</p>
 	<p>&nbsp;</p>
-	<p>Art. 9&ordm;. Dever&atilde;o ser disponibilizadas no endere&ccedil;o eletr&ocirc;nico http://natal.rn.gov.br/leideacesso/ 
+	<p>Art. 9&ordm;. Dever&atilde;o ser disponibilizadas no endere&ccedil;o eletr&ocirc;nico http://dominio/leideacesso/ 
 	as seguintes informa&ccedil;&otilde;es de interesse p&uacute;blico:<br>
 	<p>&nbsp;</p>
 	I - estrutura organizacional, compet&ecirc;ncias, legisla&ccedil;&atilde;o aplic&aacute;vel, principais cargos e seus 

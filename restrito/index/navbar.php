@@ -28,7 +28,7 @@
                         Sistema   E-sic <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="waves-effect" href="http://portal.natal.rn.gov.br/">Prefeitura do Natal</a></li>
+                        <li><a class="waves-effect" href="#esic">Prefeitura do Natal</a></li>
                     </ul>
                 </div>
             </li>

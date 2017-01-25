@@ -64,15 +64,15 @@ include("config.php");
 					<div id="faixa">
 						<ul>
 							<img id="home" src="../css/img/home.png" alt="Imagem E-sic Livre"/>
-							<li class="opcao"><a target="_blank" href="http://portal.natal.rn.gov.br/">Principal</a></li>
+							<li class="opcao"><a target="_blank" href="#esic">Principal</a></li>
 							<img src="../css/img/pipe.png" alt="Imagem E-sic Livre" />
-							<li class="opcao"><a target="_blank" href="http://portal.natal.rn.gov.br/ouvidoria/">Ouvidoria</a></li>
+							<li class="opcao"><a target="_blank" href="#esicouvidoria/">Ouvidoria</a></li>
 							<img src="../css/img/pipe.png" alt="Imagem E-sic Livre"/>
-							<li class="opcao"><a target="_blank" href="http://www.natal.rn.gov.br/">Secretarias e &Oacute;rg&atilde;os</a></li>
+							<li class="opcao"><a target="_blank" href="#esic">Secretarias e Órgãos</a></li>
 							<img src="../css/img/pipe.png" alt="Imagem E-sic Livre" />
 							<li class="opcao"><a href="../faleconosco">Fale conosco</a></li>
 							<img src="../css/img/pipe.png" alt="Imagem E-sic Livre"/>
-							<li class="opcao"><a target="_blank" href="http://portal.natal.rn.gov.br/transparencia/index/">Portal da Transpar&ecirc;ncia</a></li>
+							<li class="opcao"><a target="_blank" href="#esictransparencia/index/">Portal da Transparência</a></li>
 						</ul>
 					</div>
 					
