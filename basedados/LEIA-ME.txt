@@ -1,0 +1,7 @@
+Para instalar o banco de dados via linha de comando, utilize os arquivos na seqüência:
+
+1) dbesiclivre1-linha-de-comando.sql
+2) dbesiclivre2.sql
+3) dbesiclivre3.sql (opcional)
+
+Novas Mudanças em frente

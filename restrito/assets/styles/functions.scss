@@ -1,0 +1,39 @@
+// Variable
+// --------------------------------------------------
+
+//Transition`s
+
+@mixin translateY($translateY:0px) {
+    -webkit-transform:translateY($translateY);
+    -moz-transform:translateY($translateY);
+    -o-transform:translateY($translateY);
+    transform:translateY($translateY);
+}
+
+@mixin rotateZ($rotateZ:0deg) {
+    -webkit-transform:rotateZ($rotateZ);
+    -moz-transform:rotateZ($rotateZ);
+    -o-transform:rotateZ($rotateZ);
+    transform:rotateZ($rotateZ);
+}
+
+@mixin scale($scale:1) {
+    -webkit-transform:scale($scale);
+    -moz-transform:scale($scale);
+    -o-transform:scale($scale);
+    transform:scale($scale);
+}
+
+@mixin translateX($translateX:0px) {
+    -webkit-transform:translateX($translateX);
+    -moz-transform:translateX($translateX);
+    -o-transform:translateX($translateX);
+    transform:translateX($translateX);
+}
+
+@mixin animate($animate:all 400ms) {
+    -webkit-transition:$animate;
+    -moz-transition:$animate;
+    -o-transition:$animate;
+    transition:$animate;
+}

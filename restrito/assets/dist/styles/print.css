@@ -1,0 +1,35 @@
+@media only print  {
+  body {
+    font-size: 14px;
+  }
+  #areaToPrint{
+  	border: 1px solid #ccc;
+  }
+
+  #areaToPrint td{
+  	border-right: 1px solid #ccc !important;
+  }
+  #body-main .wrapper{
+  	margin: 0;
+  	width: 100%;
+  }
+  .menu,.filter,.header-title,.map-color,.btn-print{
+  	display: none;
+  }
+  .table thead tr th{
+  	padding: 5px;
+  	width: 30px !important;
+  }
+  .prazo,.none-print{
+  	display: none;
+  }
+  .boll-table{
+  	overflow: visible;
+  	border-radius: 0;
+  	box-shadow: 0 0 0 transparent;
+  	border: 0;
+  }
+  .btn{
+    display: none;
+  }
+}

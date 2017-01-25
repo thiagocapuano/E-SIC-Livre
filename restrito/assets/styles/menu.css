@@ -1,0 +1,275 @@
+//
+
+
+
+.material-grid {
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: 5px;
+}
+
+.material-grid section{
+    display: block;
+    height: 38px;
+    width: 21px;
+    float: left;
+    position: relative;
+    padding-top: 10px;
+    left: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@keyframes materialResponse{
+  0% {
+    width: 0;
+    height: 0;
+    margin: 0;
+    background: rgba(255,255,255,0.1);
+  }
+  
+  100% {
+    width:250%;
+    height:250%;
+    margin:-125%;
+    background: rgba(255,255,255,0.4);
+  }
+}
+
+.material-grid section:before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:50%;
+  border-radius:999px;
+  cursor:pointer;
+}
+
+.material-grid section:active:before {
+  animation: materialResponse 0.4s ease;
+  z-index: 2;
+}
+
+.material-icon {
+  width:100%;
+  height:35px;
+  position:relative;
+}
+.material-icon .hamburger{
+  top: 3px;
+}
+.material-icon span, .material-icon{
+  transition:all 500ms ease;
+}
+
+.material-icon span{
+  background-color: #333;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:20px;
+}
+
+.material-icon:before, .material-icon:after, .material-icon>.after, .material-icon>.before{
+  background:transparent;
+  width:0;
+  height:0;
+  display:block;
+  position:relative;
+  width:100px;
+  height:40px;
+  z-index:1;
+  transform:translateY(-50px);
+  transition:all 500ms ease;
+  color:trasnparent;
+}
+
+.hamburger span, .arrow span{
+  height:2px;
+  -webkit-transform:translateY(5px);
+}
+
+.hamburger .second{
+  -webkit-transform:translateY(0);
+}
+
+.hamburger .third{
+  -webkit-transform:translateY(10px);
+}
+
+.arrow {
+  -webkit-transform:rotate(180deg) translateY(-3px);
+}
+
+.arrow .second, .arrow .third{
+   -webkit-transform: rotate(-45deg) translateY(46px);
+    width: 10px;
+    left: -22px;
+}
+.arrow .first{
+  top: 24px;
+}
+.arrow .second{
+  -webkit-transform: rotate(46deg) translateY(-6px) translateX(41px);
+}
+
+.pause {
+  -webkit-transform:rotate(90deg);
+}
+
+.pause span{
+  height:25px;
+}
+
+.pause .second{
+  -webkit-transform:translateY(45px);
+}
+
+.stop {
+  -webkit-transform:rotate(270deg);
+}
+
+.stop span, .play span{
+  height:35px;
+}
+
+.stop .second, .play .second{
+  height:45px;
+  -webkit-transform: translateY(25px);
+}
+
+.play{
+  -webkit-transform:rotate(180deg);
+}
+
+.play:before,.play>.before{
+  -webkit-transform:translateY(-24px) translateX(-17px) rotate(-26deg);
+}
+
+.play:after,.play>.after{
+  -webkit-transform:translateY(11px) translateX(-22px) rotate(26deg);
+}
+
+@keyframes spin{
+  from{
+    transform:rotate(0deg);
+  }
+  
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes leader{
+  0%{
+    transform:rotate(0);
+  }
+  12%{
+    transform:rotate(0);
+  }
+  12.00001%{
+    border-bottom-color:#fff;
+  }
+  25%{
+    transform:rotate(180deg);
+    border-bottom-color:#fff;
+  }
+  
+  37.5%{
+    transform:rotate(180deg);
+    border-bottom-color:#fff;
+    border-right-color:transparent;
+  }
+  
+  37.50001%,50%{
+    transform:rotate(180deg);
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+  }
+  
+  67.5%{
+    transform:rotate(270deg);
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  67.50001%{
+    transform:rotate(270deg);
+    border-bottom-color:#fff;
+    border-right-color:transparent;
+  }
+  75%, 87.5%{
+    transform:rotate(360deg);
+    border-bottom-color:#fff;
+    border-right-color:transparent;
+  }
+  87.50001%, 100%{
+    transform:rotate(360deg);
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+  }
+}
+
+@keyframes trailer{
+  0%{
+    transform:rotate(0);
+  }
+  25%{
+    transform:rotate(0);
+  }
+  37.5%{
+    transform:rotate(90deg);
+  }
+  50%{
+    transform:rotate(180deg);
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+  }
+  75%{
+    transform:rotate(180deg);
+  }
+  87.5%{
+    transform:rotate(270deg);
+  }
+  100%{
+    transform:rotate(360deg);
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+  }
+}
+
+.failed-loader{
+  animation:spin 3s infinite 0.5s linear;
+}
+
+.failed-loader span{
+  width:58px;
+  height:58px;
+  border:6px solid #fff;
+  background:transparent;
+  border-radius:70px;
+  border-top-color:transparent;
+  border-bottom-color:transparent;
+  border-right-color:transparent;
+  animation:trailer 1.5s linear 0.5s infinite;
+}
+
+.failed-loader .first{
+  animation:leader 1.5s linear 0.5s infinite;
+}
+
+.failed-loader .third{
+  display:none;
+}
+
+
+
+
+
+
+
+//

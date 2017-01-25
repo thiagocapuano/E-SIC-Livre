@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>RGraph: HTML5 charts library</title>
+
+    <link rel="stylesheet" href="css/website.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/animations.css" type="text/css" media="screen" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <script src="libraries/RGraph.common.core.js" ></script>
+    <script src="libraries/RGraph.common.dynamic.js" ></script>
+    <script src="libraries/RGraph.common.key.js" ></script>
+    <script src="libraries/RGraph.drawing.rect.js" ></script>
+    <script src="libraries/RGraph.common.effects.js" ></script>
+    <script src="libraries/RGraph.common.tooltips.js" ></script>
+    <script src="libraries/RGraph.bar.js" ></script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function ()
+        {
+            var bar = new RGraph.Bar('cvs_bar', [[45,-60],[-65,-30],[40,80],[59,-48]])
+                .set('colors', ['rgba(255, 176, 176, 0.5)', 'rgba(153, 208, 249,0.5)']) 
+                .set('labels', ['Luis', 'Kevin', 'John', 'Gregory'])
+                .set('tooltips', ['Luis','Luis','Kevin','Kevin','John','John','Gregory','Gregory'])
+                .set('tooltips.event', 'onmousemove')
+                .set('ymax', 100)
+                .set('ylabels.count', 4)
+                .set('numyticks', 8)
+                .set('strokestyle', '#ccc')
+                .set('hmargin.grouped', 2)
+                .set('units.pre', '£')
+                .set('title', 'Bar chart with tooltips and interactive key')
+                .set('gutter.top', 50)
+                .set('gutter.left', 40)
+                .set('gutter.right', 15)
+                .set('xaxispos', 'center')
+                .set('key', ['Results from Monday','Results from Tuesday'])
+                .set('key.interactive', true)
+                .set('key.position', 'gutter')
+                .set('key.interactive.highlight.chart', 'rgba(255,255,255,0.7)')
+                .fadeIn({'duration': 250})
+                .expand({bounce: false})
+        });
+    </script>
+</head>
+<body>
+
+    <a href="http://www.rgraph.net" target="_blank"><div style="display: inline; width: 64px; height: 64px; padding-bottom: 5px"><img border="0" src="images/logo.png" alt="The RGraph logo" width="64" height="64" title="The RGraph logo" /></div></a>
+    
+    <img src="images/title.png" width="666" height="69" alt="RGraph: Free HTML5 and Javascript charts" />
+    
+
+    <canvas width="600" height="250" id="cvs_bar" style="float: right" class="animated rotateIn"></canvas>
+
+
+
+
+
+
+
+
+
+    <h2>Demos <span>of charts (local)</span></h2>
+        <p>
+            Demos of some of the various charts and features provided by RGraph
+        </p>
+        
+        <p align="left">
+            <a href="./demos/"><b>Go to the demos (local) &raquo;</b></a>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2>Demos <span>of charts (online)</span></h2>
+        <p>
+            The same demos as above are also available on rgraph.net. Due to browser security the AJAX demos will not work locally
+            so you can see these if you go online.
+        </p>
+        
+        <p align="left">
+            <a href="http://www.rgraph.net/demos/"><b>Go to the demos (online) &raquo;</b></a>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2>Other <span>pages on rgraph.net</span></h2>
+        <ul>
+            <li>
+                <a href="http://www.rgraph.net" target="_blank">Home page</a><br />
+                The RGraph homepage on www.rgraph.net<br /><br />
+            </li>
+            <li>
+                <a href="http://www.rgraph.net/examples" target="_blank">Examples</a><br />
+                Examples of the types of charts that are supported by RGraph.<br /><br />
+            </li>
+            <li>
+                <a href="http://www.rgraph.net/docs" target="_blank">Documentation</a><br />
+                Documentation for RGraph<br /><br />
+            </li>
+            <li>
+                <a href="http://www.rgraph.net/docs/howto-index.html" target="_blank">HOWTO guides</a><br />
+                Guides for doing specific tasks with RGraph.<br /><br />
+            </li>
+        </ul>
+
+
+
+
+
+
+    <p style="font-size: 70%">
+        &copy; Copyright 2014 RGraph Licensing All rights reserved.
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+The RGraph license
+==================
+RGraph is covered by the Creative Commons BY-NC 3.0 license. If your use is for non-commercial purposes you may use it on
+your website without charge as you wish.
+
+For commercial use there is a one-time fee of £99 that covers most use cases. The only exception is for OEM use - the OEM
+license is described on the website and costs £499. You can read the details about RGraph licensing here:
+
+http://www.rgraph.net/license
+
+
+Support
+=======
+Support is available by the support email: support@rgraph.net

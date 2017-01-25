@@ -1,0 +1,438 @@
+/* Lei de Acesso*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Estilização geral */
+body {
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+/* Tipografia */
+h1 {
+	font-size: 18px;
+	font-family: "Lucida Grande","Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	color: #3E68AD;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #5188E4;
+}
+
+h2 {
+	
+}
+
+h3 {
+	font-size: 15px;
+	font-family: "Lucida Grande","Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	color: #B2B2B2;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+h4 {
+	font-size: 13px;
+	color: #333333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+/* Estrutura do site */
+#out {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #5188E4;
+	margin-top: 5px;
+}
+
+#conteudo {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#cabecalho {
+	width: inherit;
+	height: 172px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#faixa {
+	width: 980px;
+	height: 25px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-top: 5px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	-webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 1);
+	-moz-box-shadow: 0px 1px 2px rgba(50, 50, 50, 1);
+	box-shadow: 0px 1px 2px rgba(50, 50, 50, 1);
+	background: #ffffff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xmlbase64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0NiUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OCUiIHN0b3AtY29sb3I9IiNkNmQ2ZDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDZkNmQ2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top, #ffffff 46%, #f0f0f0 98%, #f0f0f0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#ffffff), color-stop(98%,#f0f0f0), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-8 */
+}
+
+#faixa ul {
+	font-size: 12px;
+	list-style: none;
+}
+
+#faixa ul li {
+	display: inline;
+	padding: 12px;
+	color: #666;
+}
+
+.opcao {
+	position: relative;
+	top: -8px;
+}
+
+#home {
+	position: relative;
+	top: -6px;
+        
+}
+
+#logo {
+	padding-top: 10px;
+	width: 300px;
+	height: 85px;
+	margin: 10px;
+}
+
+#esic{
+	width: 115px;
+	height: 70px;
+	position: absolute;
+	left: 870px;
+	top: 55px;
+}
+
+
+/* Estilização do menu menu */
+
+#menu {
+	width: 980px;
+	height: 25px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-top: 5px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	background-color:#4169E1;
+	border-top: 3px solid SteelBlue; 
+	border-bottom: 3px solid SteelBlue;
+	background: -moz-linear-gradient(top, #ffffff 46%, #f0f0f0 98%, #f0f0f0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#ffffff), color-stop(98%,#f0f0f0), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 46%,#f0f0f0 98%,#f0f0f0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-8 */
+}
+
+#menu ul {
+	font-size: 12px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 12px;
+	color: #666;
+}
+
+.opcao {
+	position: relative;
+	top: -8px;
+}	
+
+#principal {
+	display: block;
+	min-height: 200px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#principal #banner {
+	display: inline-block;
+	width: 64%;
+	height: 95%;
+	padding: 1px;
+	vertical-align: top;
+}
+
+#principal #caixa_login {
+	display: inline-block;
+	width: 34%;
+	height: 95%;
+	min-height: 200px;
+	padding: 1px;	
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	background-color: #001C55;
+}
+
+#principal #caixa_login #campos {
+	display: inline-block;
+	width: 100%;
+	font: 11px; 
+	font-family: "Verdana", Geneva, sans-serif;
+	color:#000000;
+	margin-top: 50px;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding: 5px;
+	line-height: 15px;
+	text-align: right;
+}
+
+.titulo_caixa_login {
+    color: #FFFF00;
+    font-size: 1.4em;
+    font-weight: lighter;
+	margin-left: 12px;
+	margin-top: 2px;
+}
+
+.Mensagem {
+	color: #FFFFFF;
+	width: 17%;
+    font-size: 0.9em;
+    text-align: left;
+	margin-left: 10px;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.inputLogin {
+	
+}
+
+.inputBotao {
+	width: 100px;
+	height: 25px;
+	background-color: #EEEEEE;
+}
+
+.labelLogin {
+	color:#EEEEEE;
+	font-weight: bold;
+}
+
+.class_cadastrese {
+	color: #FFFFFF;
+	position:relative;
+	font-size: 10px;
+}
+
+.class_senha {
+	position:relative;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#notificacoes {
+	display: block;
+	width: 100%;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#notificacoes #linha {	
+	height: 2px;	
+	border: 2px solid #236B8E;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 0px;
+	margin-left: 3px;
+}
+
+#notificacoes #links {
+	height: 200px;
+	width: 100%;
+}
+
+#notificacoes #links table {
+	padding: 20px;
+	border-top: 1px solid #E3E3E3;	
+	border-bottom: 1px solid #E3E3E3;
+	margin-top: 60px;
+	width: 100%;
+}
+
+#notificacoes #links table th{
+	font-family: "Lucida Grande","Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	color: #0052A5;
+	font-weight: normal;
+	width: 40%;
+}
+
+#notificacoes #links table td{
+	font-family: "Lucida Grande","Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	padding: 5px;
+	margin-left: 5px;
+	color: #666666;
+	text-align: center;
+	
+}
+
+#postagens {
+	height: 230px;
+	width: 400px;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+#rodape {
+	width: inherit;
+	height: 10px;
+	font-size:10px;
+	color: #2D70DE;
+}
+
+#rodapetexto1 {
+	margin-top: 5px;
+	padding: 5px;
+	background-color: #EEEEEE;
+	height: 15px;
+}
+
+#rodapetexto2 {
+
+        position: relative;
+	left: 477px;
+	top: -17px;
+	padding: 5px;
+   
+	
+}       
+
+.w3c {
+        position: relative;
+	left: 537px;
+	top: -25px;
+	padding-left: 70px;
+	padding-top: 5px;
+        
+
+}
+
+#span{
+	text-align:center;
+
+}
+
+
+/*Campos de formulario*********************************/
+input[type='text'], input[type='password'], select {
+	height: 20px;
+	padding: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #3172DE;
+}
+
+input[type='radio']{
+        border-radius: 100%;
+        display: inline-block;
+        height: 15px;
+        margin-bottom: 0;
+        vertical-align: baseline;
+        width: 15px;
+}
+
+.botaoformulario{
+        height: 20px;
+        background-color: #ABCDEF;
+        border: 1px solid #3172DE;
+        width: 120px;
+}
+
+/*tabela de sele��o de registro***********************/
+.tabLista th{
+    background-color: #abcdef;
+    padding: 10px;
+    color: #000000;
+    
+}
+.tabLista td{
+    padding: 10px;
+    color: #000000;
+   #vertical-align:right;
+    
+}
+
+
+
+
+
+/*tabela com detalhamento de registro*****************/
+.tabDetalhe th{
+    background-color: #abcdef;
+    padding: 10px;
+    color: #000000;
+    cursor: alias;
+}
+.tabDetalhe td{
+    padding: 3px;
+    color: #000000;
+    border: 1px solid #DDDDDD;    
+}
+
+/*tabela com listagem dentro do detalhamento de registro*****************/
+.tabListaDetalhe th{
+    background-color: #DDDDDD;
+    padding: 3px;
+    color: #000000;
+}
+.tabListaDetalhe td{
+    padding: 3px;
+    color: #000000;
+    border: 1px solid #DDDDDD;
+}
+
+/*****************************************************/

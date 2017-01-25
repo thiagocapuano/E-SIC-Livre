@@ -1,0 +1,10 @@
+ @media print {
+  body {
+    font-size: 10px;
+  }
+  table{
+    tr{
+      border-top:1px solid #ccc;
+    }
+  }
+} 
