@@ -8,4 +8,4 @@ No momento trata-se de uma versão de adaptação e compatibilidade com versões
 Não houveram alterações incrementais
 
 # Instalação
-Após depositar todo o conteúdo no servidor, acesse pela barra de endereço do navegador de sua preferência a pasta instalar (ex. www.seudominio.com.br/instalar e preencha o formulário de acordo com as indicações de sua hospedagem ou as configurações definidas para os serviços de banco de dados e email.
+Após depositar todo o conteúdo no servidor, acesse pela barra de endereço do navegador de sua preferência a pasta instalar (ex. www.seudominio.com.br/instalar) e preencha o formulário de acordo com as indicações de sua hospedagem ou as configurações definidas para os serviços de banco de dados e email.
