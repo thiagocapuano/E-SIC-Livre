@@ -90,7 +90,7 @@ function enviadados(){
 									  )";
 		
 		//mysqli_query($conect,$sql) or die ("erro mysql");
-		if (!mysqli_query($sql)){
+		if (!mysqli_query($conect, $sql)){
 			echo '<br>erro ao inserir  ';
 			echo $sql;
 			echo mysqli_error();
