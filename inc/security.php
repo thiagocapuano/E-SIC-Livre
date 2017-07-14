@@ -49,7 +49,7 @@ function LocalSendMail($to, $subject,$body,$from="",$fromname="")
 		// $headers .= "Organization: Prefeitura do Natal\r\n";     
 		
 
-		if (mail($to, $subject, $html, $headers)) {
+		if (mail($to, $subject, $html, $headers, $from)) {
 			return true;
 		} else {
 			error_log("E-mail de confirmação de cadastro não enviado. Última mensagem de erro:");
@@ -169,7 +169,7 @@ function sendMailAnexo($to, $subject,$body,$arquivos=array(),$from="",$fromname=
 			unset($msg_temp, $tmp, $enc);
 			
 		}
-		return mail($to, $subject, $msg, $headers);
+		return mail($to, $subject, $msg, $headers, $from);
 
 		
 }
