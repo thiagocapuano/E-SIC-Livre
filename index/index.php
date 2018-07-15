@@ -65,7 +65,7 @@ include("../inc/topo.php");
 				<a><img src="../css/img/sic.png"/></a>
 			</div>
             
-                        <?php if (empty($_SESSION[SISTEMA_CODIGO])) { ?>
+                        <?php if (empty($_SESSION['SISTEMA_CODIGO'])) { ?>
 			<div id="caixa_login">
 				<form action="index.php" method="post">
 				<div class="titulo_caixa_login"> Acesse o sistema</div>
