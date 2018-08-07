@@ -87,7 +87,7 @@ include("config.php");
                                     
 					<div id="menu">
 						<ul>
-                                                    <?php if (!empty($_SESSION['SISTEMA_CODIGO'])) { ?>
+                                                    <?php if (!empty($_SESSION[SISTEMA_CODIGO])) { ?>
                                                             <ul>
 
                                                                     <li class="opcao"><a href="../index.php">In&iacute;cio</a></li>
