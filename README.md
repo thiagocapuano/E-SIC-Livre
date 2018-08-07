@@ -23,7 +23,7 @@ Para "Diretório onde será armazenado os anexos do sistema:" caso não conheça
 6- Adicione uma barra no final do endereço fisico "/" .
 7- Exclua o arquivo criado.
 
-Para "URL de acesso aos anexos do sistema:" utilize o caminho especificado do diretório (ex. https://www.seuportal.gov.br/esic/anexos/)
+Para "URL de acesso aos anexos do sistema:" utilize o caminho especificado do diretório (ex. https://www.seuportal.gov.br/esic/anexos) sem "/" no final, verifique se não há espaços, principalmente no final do endereço, que poderá ocasionar problemas de acesso ao arquivo.
 
 Inicie os testes criando cadastrando solicitante (verifique se o email de confirmação não entrou na caixa de spam), efetue uma solicitação de informação sem envio de arquivo anexo, e outra com envio de anexo).
 Demais configurações são definições organicas variaveis de orgão para orgão.
