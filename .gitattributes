@@ -2,7 +2,8 @@
 * text=auto
 
 # Custom for Visual Studio
-*.cs     diff=csharp
+#*.cs     diff=csharp
+*.php linguist-language=PHP
 
 # Standard to msysgit
 *.doc	 diff=astextplain
